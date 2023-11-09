@@ -10,15 +10,21 @@ Son los módulos nativos de la API de Node.js. No hace falta que se instalen, ya
 - path
 - HTTP
 
-## NPM
+## NPM -- external modules
 
 Es el administrador de paquetes predeterminado para el tiempo de ejecución de JavaScript Node.js. NPM consiste de dos partes principales: una herramienta CLI (interfaz de línea de comandos) para la publicación y descarga de paquetes, y un repositorio en línea que alberga paquetes de JavaScript.
+
+## Local modules
+
+Revise el directorio de [local-modules](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/modules/local-modules).
+
+Allí encontrará los ejemplos de los módulos locales, incluyendo el caso para clases y desestructuración.
 
 ## Fundamentos básicos de JSON
 
 Antes de trabajar con npm, se darán unos fundamentos básicos de json, los cuales sirven para almacenar objetos de javascript como texto, útil para la comunicación entre el servidor y el aplicativo.
 
-1. Primero crearemos un archivo con extensión .json.
+1. Primero crearemos un archivo con extensión .json. Revise el [directorio](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/json)
 2. Abra los archivos `curso.json` y `demo-json.js`.
 3. Ejecútelo.
 4. Según lo anterior haga:

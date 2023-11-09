@@ -2,7 +2,7 @@
 
 ## Ejemplo básico
 
-Probaremos dos formas de utilizar las variables de entorno en `nodejs`.
+Probaremos dos formas de utilizar las variables de entorno en `node.js`.
 
 1. Ejecute el comando `npm init` para crear el `package.json` y defina las variables de entorno en test, de la siguiente manera.
 
@@ -22,7 +22,7 @@ Probaremos dos formas de utilizar las variables de entorno en `nodejs`.
 
 2. Instale express: `npm install express --save`.
 3. Cree un archivo `config.js`, en este se encontrarán las variables de entorno de nuestro proyecto y un archivo `index.js` el cual contendrá el servidor. Para ello:
-   1. Abra los archivos actuales `config.js` e `index.js`.
+   1. Abra los archivos actuales `config.js` e `index.js` del siguiente [directorio](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/variables-entorno/01.environment-variable).
    2. Revise el código y replique.
 4. Una vez tenga el código, ejecute el programa de dos maneras.
    1. Ejecute el programa como se ha venido trabajando, mediante `node index.js`.
@@ -59,7 +59,7 @@ PORT=8000
 
 6. Ejecute: `node index.js`
 
-Vea el código fuente en: [dotenv](.)
+Vea el código fuente en: [02.dotenv-environment-variables](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/variables-entorno/02.dotenv-environment-variables)
 
 ## Múltiples Entornos con DotEnv
 
@@ -100,7 +100,9 @@ module.exports = {
    3. Comando `npm run prod`. Observe que se ejecuta el entorno de producción definido en `produccion.env`
    4. Ejecute en dos terminales distintas el entorno de desarrollo y el entorno de ejecución. Si el programa quedó de manera correcta, no se generará ningún conflicto.
 
-Como alternativa puede usar la librería `custom-env` para el manejo de variables de entorno. Instale con `npm i custom-env`. Vea el ejemplo y código fuente en: [custom-env](.). Note que los archivos seben tener la extensión `.env.dev` o `.env.prod`.
+Vea el código fuente en: [03.multiple-environment](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/variables-entorno/03.multiple-environment)
+
+Como alternativa puede usar la librería `custom-env` para el manejo de variables de entorno. Instale con `npm i custom-env`. Vea el ejemplo y código fuente en: [04.multiple-environment-lib](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/variables-entorno/04.multiple-environment-lib). Note que los archivos seben tener la extensión `.env.dev` o `.env.prod`.
 
 Debe configurar el `package.son` con:
 
@@ -110,5 +112,3 @@ Debe configurar el `package.son` con:
  "prod": "set NODE_ENV=prod&&node index.js"
  },
 ```
-
-Vea el código fuente en: [fotr](.)

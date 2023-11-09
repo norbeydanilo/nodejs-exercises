@@ -2,12 +2,12 @@
 
 ## Node.js
 
-* [Node introductorio](.): callbacks, http, servers.
-* [Sistemas de módulos](.): ESM, commonjs.
-* [Modules](.): local, built-in, external.
-* [Json](.): uso básico de json.
-* [Eventos y buffers](.): eventos y buffers.
-* [Variable de entorno](.): variables de entorno: simple, con DotEnv, múltiple.
+* [Node introductorio](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/node-I): callbacks, http, servers.
+* [Sistemas de módulos](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/sistemas-de-modulos): ESM, commonjs.
+* [Modules](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/modules): local, built-in, external.
+* [Json](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/json): uso básico de json.
+* [Eventos y buffers](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/eventos-buffer): eventos y buffers.
+* [Variable de entorno](https://github.com/norbeydanilo/nodejs-exercises/tree/main/node-js/variables-entorno): variables de entorno: simple, con DotEnv, múltiple.
 
 ## Express
 
