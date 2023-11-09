@@ -1,0 +1,10 @@
+{
+    "nombre": "Curso de programación web Backend",
+    "numEstudiantes": 60,
+    "descripcion": "Primer json para el curso de Backend",
+    "temas": [
+        "javascript",
+        "nodejs",
+        "mongoDB"
+    ]
+}

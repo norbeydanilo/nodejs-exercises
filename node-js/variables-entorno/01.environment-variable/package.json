@@ -1,0 +1,14 @@
+{
+  "name": "environment-variable",
+  "version": "1.0.0",
+  "description": "ejemplo básico",
+  "main": "index.js",
+  "scripts": {
+    "test": "set HOST=localhost&&set PORT=8000&&node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
