@@ -47,6 +47,7 @@ así que pueden anidarse tanto como se desee.
 Inconveniente, podemos acabar con código como este:
 */
 
+/*
 setTimeout(function () {
   console.log("Etapa 1 completada");
   setTimeout(function () {
@@ -84,6 +85,7 @@ En terminología de promesas, decimos que una promesa se resuelve con éxito (re
 Echa un vistazo al siguiente ejemplo:
 */
 
+/*
 const currentURL = document.URL.toString();
 const promise = fetch(currentURL);
 promise.then(result => console.log(result), e => console.log(`Error capturado:  ${e}`));
@@ -114,7 +116,7 @@ Por otro lado, await debe ser usado siempre dentro de una función declarada com
 y esperará automáticamente (de forma asíncrona y no bloqueante) a que una promesa se resuelva.
 */
 
-
+/*
 const checkServerWithSugar = async (url) => {
   const response = await fetch(url);
   return `Estado del Servidor: ${response.status === 200 ? "OK" : "NOT OK"}`;
