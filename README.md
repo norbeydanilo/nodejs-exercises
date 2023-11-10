@@ -33,3 +33,13 @@ Para instalar Express temporalmente y no agregarlo a la lista de dependencias, p
 $ npm install express --no-save
 ```
 Por defecto, con la versión npm 5.0+ `npm install` agrega el módulo a la lista de dependencias en el archivo `package.json`.
+
+### Programas
+
+* [Hola mundo express](https://github.com/norbeydanilo/nodejs-exercises/tree/main/express/express-01): ejemplo inicial de server.
+* [Ejemplo con data local](https://github.com/norbeydanilo/nodejs-exercises/tree/main/express/express-02): ejemplo tomado del [curso CS142 (Spring 2023)](https://web.stanford.edu/class/cs142/lectures.html) de la Universidad de Stanford.
+* [Ejemplo direccionamiento sencillo](https://github.com/norbeydanilo/nodejs-exercises/tree/main/express/express-03).
+* [Ejemplo recursos estáticos](https://github.com/norbeydanilo/nodejs-exercises/tree/main/express/express-04).
+* [Introducción con Nodemon](https://github.com/norbeydanilo/nodejs-exercises/tree/main/express/nodemon-01).
+* [Más ejemplos de servidores](https://github.com/norbeydanilo/nodejs-exercises/tree/main/express/server-02): routing, múltiples ficheros para rutas.
+* [Otro ejemplo recursos estaticos](https://github.com/norbeydanilo/nodejs-exercises/tree/main/express/estaticos-03).
